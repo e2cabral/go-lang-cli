@@ -1,6 +1,6 @@
 # A Go CLI (Non Official Package)
 
-Just a simple CLI to generate archive in Go, specifying such things like filename, go package and the path of the archive.
+Just a simple CLI to generate archive in Go, specifying things such as filename, go package and the path of the archive.
 
 `-filename` Is the name of the file to be generated.
 
