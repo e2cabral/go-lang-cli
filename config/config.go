@@ -48,7 +48,7 @@ func (c *Config) SetPackage(file *os.File) (*os.File, error) {
 
 // ExecuteCommand - creates the file with the specified parameters
 func (c *Config) ExecuteCommand() error {
-	if err := os.Mkdir(c.Package, 0777); err != nil {
+	if err := os.Mkdir(c.Path, 0777); err != nil {
 		return err
 	}
 
